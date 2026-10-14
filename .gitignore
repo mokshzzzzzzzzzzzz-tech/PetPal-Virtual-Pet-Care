@@ -1,4 +1,4 @@
-# Logs
+ # Logs
 logs
 *.log
 npm-debug.log*
@@ -147,3 +147,17 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment secrets
+.env
+client/.env
+server/.env
+
+# Build output
+dist/
+client/dist/
+server/dist/
